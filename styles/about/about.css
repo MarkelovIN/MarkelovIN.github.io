@@ -10,8 +10,6 @@
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0;
-  text-align: left;
-  max-width: 327px;
   width: 100%;
 }
 
@@ -22,8 +20,7 @@
   letter-spacing: 0;
   text-align: left;
   width: 100%;
-  max-width: 318px;
-  align-self: flex-start;
+  max-width: 360px;
 }
 
 .about__description-bonus {

@@ -53,6 +53,12 @@
   text-align: end;
 }
 
+.header__link {
+  display: block;
+  height: 18px;
+  border-radius: 50%;
+}
+
 .header__working-hours {
   font-size: 12px;
   font-weight: 700;
