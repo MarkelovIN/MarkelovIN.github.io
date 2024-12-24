@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header/header.css" />
     <link rel="stylesheet" href="./styles/about/about.css" />
+    <link rel="stylesheet" href="./styles/menu/menu.css" />
     <title>Разработка интернет-магазинов на 1С-Битрикс</title>
   </head>
   <body class="body">
-    <header class="header">
+      <header class="header">
       <nav class="main-menu">
         <button class="header__button-menu"></button>
         <ul class="main-menu__list">
@@ -28,15 +29,17 @@
       />
       <div class="header__contact-numbers">
         <div class="header__messenger-icons">
-          <a href="https://t.me/имя_пользователя" class="header__link"><img
-            class="header__messenger-icon"
-            src="./images/telegram-icon.svg"
-            alt="Логотип мессенджера Телеграм"
+          <a href="https://t.me/имя_пользователя" class="header__link"
+            ><img
+              class="header__messenger-icon"
+              src="./images/telegram-icon.svg"
+              alt="Логотип мессенджера Телеграм"
           /></a>
-          <a href="whatsapp://send?phone=+7903xxxxxxx" class="header__link"><img
-            class="header__messenger-icon"
-            src="./images/whatsapp-icon.svg"
-            alt="Логотип мессенджера Вотсапп"
+          <a href="whatsapp://send?phone=+7903xxxxxxx" class="header__link"
+            ><img
+              class="header__messenger-icon"
+              src="./images/whatsapp-icon.svg"
+              alt="Логотип мессенджера Вотсапп"
           /></a>
         </div>
         <div class="header__contacts">
@@ -50,6 +53,27 @@
       </div>
       <button class="header__button-call"></button>
     </header>
+    <div class="menu">
+      <div class="menu__block">
+        <button class="menu__button-close-menu" type="button"></button>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Интернет-магазины, которые продают</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Что вы получаете</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Исследуем бизнес</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Этапы</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Обратная связь</a></li>
+          </ul>
+        </nav>
+        <div class="menu__contacts">
+          <div class="menu__email">info@millenium.ru</div>
+          <div class="menu__phone">+7 (495) 792-66-69</div>
+          <div class="menu__schedule">пн-пт 10:00–19:00</div>
+        </div>
+        </div>
+    </div>
     <main class="content">
       <section class="about">
         <h1 class="about__title">
