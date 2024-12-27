@@ -18,12 +18,14 @@ img {
 }
 
 body {
+  position: relative;
   font-family: "Montserrat", "Helvetica", sans-serif;
   color: rgb(42, 35, 103);
   background: rgb(255, 255, 255);
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  height: 100vh;
 }
 
 ul {

@@ -1,6 +1,8 @@
 .menu {
+    position: absolute;
     width: 100%;
     background-color: rgba(163, 161, 161, 0.85);
+    height: 731px;
 }
 
 .menu__nav {
@@ -8,18 +10,18 @@
 }
 
 .menu__block {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 731px;
     width: 100%;
     max-width: 360px;
     background-color: rgb(255, 255, 255);
     padding-top: 62px;
     padding-left: 14px;
     padding-bottom: 42px;
+    height: 100%;
 }
 
 .menu__button-close-menu {
@@ -57,4 +59,19 @@ letter-spacing: 0;
 
 .menu__email {
     padding-bottom: 32px;
+}
+
+@media (min-width: 1200px) {
+    .menu {
+        display: none;
+    }
+   
+    
+}
+
+
+@media (min-width: 768px) {
+.menu__button-close-menu {
+    left: 322px;
+}
 }
